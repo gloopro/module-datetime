@@ -5,9 +5,8 @@ Magonex DateTime Magento2 extension.
 
 ## Install
 
-1. Go to [Magento2 root folder]/app/code.
-
-2. Create Magonex/DateTime folder to the previous path.
+`composer config repositories.gloopro vcs https://github.com/gloopro/module-datetime
+composer require gloopro/module-datetime:dev-master`
 
 3. bin/magento setup:upgrade
 
